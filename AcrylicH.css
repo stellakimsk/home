@@ -1,0 +1,170 @@
+/*The History pages are almost identical to eachother, so there won't be many comments!*/
+
+a{
+	Font-family: Lucida Console;
+	color: #FFFFFF;
+}
+
+body
+{
+	background-image: url("images/AcrylicH.jpg")
+}
+
+.content
+{
+	text-align: center;
+	font-family: Lucida Console;
+	color: black;
+	font-size: 30px;
+	padding: 30px;
+	margin: 30px;
+	border: 8px solid #f54747;
+}
+
+h3
+{
+	color: #f54747;
+}
+
+h2
+{
+	font-family: Lucida Console;
+	color: #f54747;
+	border-bottom: 5px solid #FFFFFF;
+	font-size: 60px;
+	margin: 20px;
+	margin-bottom: 40px;
+}
+
+img
+{
+	width: 500px;
+}
+/* This is probably my least favourite header. It just looks too normal and I don't like that too much */
+.header
+{
+	font-family: Lucida Console;
+	outline: 5px solid #FFFFFF;
+	outline-offset: -25px;
+	text-align: center;
+	color: #F54747;
+	word-spacing: 20px;
+	font-size: 40px;
+	padding: 60px;
+	margin: 30px;
+	border: 20px solid #F54747;
+}
+
+.column-one
+{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 700px;
+}
+
+.colomn-two
+{
+	float: right;
+	width: 50%;
+	padding: 10px;
+	height: 700px;
+}
+
+.row:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.navbar 
+{
+	font-family: Lucida Console;
+	margin-left: 125px;
+	margin-right: 125px;
+}
+
+.navbar a 
+{
+	font-size: 20px;
+	color: #f54747;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover 
+{
+  background-color: #f54747;
+  color: #FFFFFF;
+}
+
+.dropdown 
+{
+}
+
+.dropbtn 
+{
+	color: #F54747;
+	padding: 16px;
+	font-size: 20px;
+	border: none;
+}
+
+.dropdown 
+{
+	display: inline-block;
+}
+
+.dropdown-content 
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a 
+{
+	color: #F54747;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #F54747;
+	color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+	background-color: #F54747;
+	color: #FFFFFF;
+}
+
+.footer 
+{
+	Border-top: 10px solid #f54747;
+	font-family: Lucida Console;
+	padding: 20px;
+	text-align: center;
+	background: rgba(255, 255, 255, 0.5);
+	font-size: 23px;
+	column-count: 2
+}
+
+.navbar2 
+{ 
+	word-spacing: 10px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}

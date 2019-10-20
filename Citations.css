@@ -1,0 +1,125 @@
+a{
+	Font-family: Lucida Console;
+	color: #f54747;
+}
+
+body
+{
+	background-image: url("images/Citations.jpg")
+}
+
+.content
+{
+	margin: 20px;
+	background: rgba(255, 255, 255, 0.5); /* making it transparent makes it very pretty! */
+	border-top: 10px solid #F54747;
+	border-bottom: 10px solid #F54747;
+	padding: 20px;
+}
+
+ul
+{
+	font-size: 20px;
+	font-family: Lucida Console;
+	color: #FFFFFF;
+}
+
+/* I like this header a lot because its so unbalenced */
+.header
+{
+	font-family: Lucida Console;
+	text-align: left;
+	color: #F54747;
+	word-spacing: 20px;
+	font-size: 40px;
+	padding-left: 30px;
+	padding: 20px;
+	margin: 30px;
+	border-left: 20px solid #F54747;
+	border-bottom: 20px solid #F54747;
+}
+
+.navbar a 
+{
+	font-size: 20px;
+	color: #f54747;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.navbar a:hover 
+{
+	background-color: #f54747;
+	color: #FFFFFF;
+}
+
+.dropdown 
+{
+}
+
+.dropbtn 
+{
+	color: #F54747;
+	padding: 16px;
+	font-size: 20px;
+	border: none;
+}
+
+.dropdown 
+{
+	display: inline-block;
+}
+
+.dropdown-content 
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a 
+{
+	color: #F54747;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #F54747;
+	color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+	background-color: #F54747;
+	color: #FFFFFF;
+}
+
+/* I came up with the transparent footer idea while coding the citations page and I'm very proud of myself!*/
+.footer 
+{
+	background: rgba(255, 255, 255, 0.5);
+	Border-top: 10px solid #f54747;
+	font-family: Lucida Console;
+	padding: 20px;
+	text-align: center;
+	font-size: 23px;
+	column-count: 2
+}
+
+.navbar2 
+{ 
+	word-spacing: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	padding: 10px;
+	text-align: center;
+}

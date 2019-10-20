@@ -1,0 +1,179 @@
+/*these are for links */
+a{
+	Font-family: Lucida Console;
+	color: #FFFFFF;
+}
+
+/*setting up the background image*/
+body
+{
+	background-image: url("images/PaintsHP.jpg");
+}
+
+.header
+{
+	font-family: Lucida Console;
+	text-align: center;
+	color: #F54747;
+	word-spacing: 100px;
+	font-size: 100px;
+	padding: 50px;
+	margin: 30px;
+	border: 20px solid #F54747;
+	Outline: 5px solid #F54747;
+	Outline-offset: -40px;
+}
+
+/*all the p tags will be super small now */
+p
+{
+	font-size: 30px;
+}
+
+/*I like putting borders around everything because it looks neat*/
+.content
+{
+	border: 10px solid #f54747;
+	padding: 30px;
+	font-family: Lucida Console;
+	margin: 50px;
+}
+
+/*Don't ask me how this works.*/
+.column-one
+{
+	float: left;
+	width: 50%;
+	padding: 10px;
+	height: 700px;
+}
+
+.colomn-two
+{
+	float: right;
+	width: 50%;
+	padding: 10px;
+	height: 700px;
+}
+
+h5
+{
+	font-size: 30px;
+	color: #f54747;
+}
+
+
+.row3
+{
+	font-size: 30px;
+	margin: 30px;
+	width: 50%;
+}
+
+h2
+{
+	font-size: 50px;
+	color: #f54747;
+	text-decoration: solid underline #f54747;
+}
+
+/*I don't think I actually need this since I renamed all my rows, but it's for good measure. :) */
+.row:after 
+{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+ul
+{
+	font-size: 30px;
+}
+
+img
+{
+	height: 600px;
+
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+
+/*All my dropdown button settings are below!*/
+.dropdown 
+{
+}
+
+.dropbtn 
+{
+	color: #F54747;
+	padding: 16px;
+	font-size: 20px;
+	border: none;
+	background-color: #FFFFFF;
+	margin-left: 125px;
+	margin-right: 125px;
+	margin-top: 50px;
+}
+
+.dropdown 
+{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content 
+{
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.dropdown-content a 
+{
+	color: #F54747;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover 
+{
+	background-color: #F54747;
+	color: #ffffff;
+}
+
+.dropdown:hover .dropdown-content 
+{
+	display: block;
+}
+
+.dropdown:hover .dropbtn 
+{
+	background-color: #F54747;
+	color: #FFFFFF;
+}
+
+/*footer & navbar, and I'm finisheddd*/
+.footer 
+{
+	Border-top: 10px solid #f54747;
+	font-family: Lucida Console;
+	padding: 20px;
+	text-align: center;
+	font-size: 23px;
+	background: rgba(255, 255, 255, 0.5);
+	column-count: 2
+}
+
+.navbar2 
+{ 
+	word-spacing: 10px;
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
